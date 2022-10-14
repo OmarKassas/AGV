@@ -1,0 +1,51 @@
+<!-- 
+    ROS navigation stack with velocity smoother and safety (reactive) controller
+-->
+<launch>
+  <master auto="start"/>
+<!--
+  <include file="$(find diff_wheeled_robot_gazebo)/launch/includes/velocity_smoother.launch.xml"/>
+  <include file="$(find diff_wheeled_robot_gazebo)/launch/includes/safety_controller.launch.xml"/>
+-->
+
+  <arg name="odom_topic" default="/arabv/base_controller/odom
+" />
+
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="$(find arabv)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find arabv)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find arabv)/param/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find arabv)/param/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find arabv)/param/base_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find arabv)/param/dwa_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find arabv)/param/move_base_params.yaml" command="load" />
+
+<!--    <remap from="cmd_vel" to="navigation_velocity_smoother/raw_cmd_vel"/>
+    <remap from="odom" to="$(arg odom_topic)"/> -->
+  </node>
+  
+    <!-- Run rviz -->
+  <include file="$(find arabv)/launch/display.launch" />
+  
+</launch>
+
+
+
+	  <arg name="base_global_planner" default="global_planner/GlobalPlanner"/>
+	  <arg name="base_local_planner" default="dwa_local_planner/DWAPlannerROS"/>
+
+	  <!--- Run Move Base -->
+	  <node pkg="move_base" type="move_base" respawn="false" name="agv1_move_base" output="screen" >
+	   <!--<remap from="cmd_vel" to="/cmd_vel"/>
+	   <remap from="odom" to="/odom"/> -->
+	    <param name="base_global_planner" value="$(arg base_global_planner)"/>
+	    <param name="base_local_planner" value="$(arg base_local_planner)"/>
+	    <param name="move_base/global_costmap/robot_base_frame" value="/base_link"/>
+	   <rosparam file="$(find agv_navigation)/params/agv_move_base.yaml" command="load"/>
+	   <rosparam file="$(find agv_navigation)/params/agv_common.yaml" command="load" ns="global_costmap"/>
+	   <rosparam file="$(find agv_navigation)/params/agv_common.yaml" command="load" ns="local_costmap"/>
+	   <rosparam file="$(find agv_navigation)/params/agv_local.yaml" command="load" />
+	   <rosparam file="$(find agv_navigation)/params/agv_global.yaml" command="load" />
+	   <rosparam file="$(find agv_navigation)/params/agv_base_local.yaml" command="load" />
+
+  </node>

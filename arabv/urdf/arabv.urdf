@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="arabv">
+  <link name="root">
+  </link>
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0078035 -0.00019091 0.049383"
+        rpy="0 0 0" />
+      <mass
+        value="34.462" />
+      <inertia
+        ixx="0.7531"
+        ixy="0.0025666"
+        ixz="0.0054956"
+        iyy="1.4448"
+        iyz="2.2087E-06"
+        izz="2.1661" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.12549 0.12549 0.14118 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0.044"
+      rpy="0 0 0" />
+    <parent
+      link="root" />
+    <child
+      link="base_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="rightwheel">
+    <inertial>
+      <origin
+        xyz="9.992E-16 8.3267E-17 -0.0075"
+        rpy="0 0 0" />
+      <mass
+        value="0.36438" />
+      <inertia
+        ixx="0.00086153"
+        ixy="0"
+        ixz="0"
+        iyy="0.00086153"
+        iyz="-0"
+        izz="0.0016479" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/rightwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <cylinder length="0.0381" radius="0.0782"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rw_joint"
+    type="continuous">
+    <origin
+      xyz="-0.00092715 -0.28428 0.035499"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="rightwheel" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="leftwheel">
+    <inertial>
+      <origin
+        xyz="0 -9.71445146547012E-17 -0.00749999999999984"
+        rpy="0 0 0" />
+      <mass
+        value="0.364383574103098" />
+      <inertia
+        ixx="0.000861533905285282"
+        ixy="-1.51110677790167E-20"
+        ixz="2.07851056899154E-19"
+        iyy="0.000861533905285283"
+        iyz="1.01658497738061E-17"
+        izz="0.00164785605224862" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/leftwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <cylinder length="0.0381" radius="0.0782"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lw_joint"
+    type="continuous">
+    <origin
+      xyz="0.00092715 0.28427 0.035499"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="leftwheel" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="rf_castor">
+    <inertial>
+      <origin
+        xyz="0.0174324276107802 0.00465848380353219 -0.0125515664222428"
+        rpy="0 0 0" />
+      <mass
+        value="0.00720332060975436" />
+      <inertia
+        ixx="1.83882308216762E-06"
+        ixy="0"
+        ixz="0"
+        iyy="1.83882308216762E-06"
+        iyz="0"
+        izz="9.251443708E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/rf_castor.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/rf_castor.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rfc_joint"
+    type="continuous">
+    <origin
+      xyz="0.372 -0.272 0.0105"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="rf_castor" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="rf_castorwheel">
+    <inertial>
+      <origin
+        xyz="-0.00268381216680103 1.77809156287623E-17 -0.00963312785409444"
+        rpy="0 0 0" />
+      <mass
+        value="0.0288085187854741" />
+      <inertia
+        ixx="6.48651737942188E-06"
+        ixy="0"
+        ixz="0"
+        iyy="6.48651737942188E-06"
+        iyz="0"
+        izz="1.297303476E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/rf_castorwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <cylinder length="0.02" radius="0.024"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rfcw_joint"
+    type="continuous">
+    <origin
+      xyz="0.027823 -0.0026293 -0.028494"
+      rpy="1.5708 0 0" />
+    <parent
+      link="rf_castor" />
+    <child
+      link="rf_castorwheel" />
+    <axis
+      xyz="0.26838 0 0.96331" />
+  </joint>
+  <link
+    name="lb_castor">
+    <inertial>
+      <origin
+        xyz="-0.018043958911865 8.09354320051581E-05 -0.0125515664222308"
+        rpy="0 0 0" />
+      <mass
+        value="0.00720332060975437" />
+      <inertia
+        ixx="1.83882308216762E-06"
+        ixy="0"
+        ixz="0"
+        iyy="1.83882308216762E-06"
+        iyz="0"
+        izz="9.251443708E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/lb_castor.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/lb_castor.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lbc_joint"
+    type="continuous">
+    <origin
+      xyz="-0.372 0.272 0.0105"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="lb_castor" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="lb_castorwheel">
+    <inertial>
+      <origin
+        xyz="-6.09761950813841E-05 -8.7733639797527E-16 -0.00999981409345357"
+        rpy="0 0 0" />
+      <mass
+        value="0.0288085187854742" />
+      <inertia
+        ixx="6.48651737942188E-06"
+        ixy="0"
+        ixz="0"
+        iyy="6.48651737942188E-06"
+        iyz="0"
+        izz="1.297303476E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/lb_castorwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <cylinder length="0.02" radius="0.024"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lbcw_joint"
+    type="continuous">
+    <origin
+      xyz="-0.026035 -0.010159 -0.028494"
+      rpy="1.5708 0 0" />
+    <parent
+      link="lb_castor" />
+    <child
+      link="lb_castorwheel" />
+    <axis
+      xyz="-0.0060976 0 -0.99998" />
+  </joint>
+  <link
+    name="rb_castor">
+    <inertial>
+      <origin
+        xyz="-0.0179981055663757 -0.00128809928919611 -0.0125515664222308"
+        rpy="0 0 0" />
+      <mass
+        value="0.00720332060975435" />
+      <inertia
+        ixx="1.83882308216762E-06"
+        ixy="0"
+        ixz="0"
+        iyy="1.83882308216762E-06"
+        iyz="0"
+        izz="9.251443708E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/rb_castor.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/rb_castor.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rbc_joint"
+    type="continuous">
+    <origin
+      xyz="-0.372 -0.272 0.0105"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="rb_castor" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="rb_castorwheel">
+    <inertial>
+      <origin
+        xyz="-0.00081937906801931 -2.29850860566927E-17 -0.0099663743629713"
+        rpy="0 0 0" />
+      <mass
+        value="0.0288085187854741" />
+      <inertia
+        ixx="6.48651737942188E-06"
+        ixy="0"
+        ixz="0"
+        iyy="6.48651737942188E-06"
+        iyz="0"
+        izz="1.297303476E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/rb_castorwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <cylinder length="0.02" radius="0.024"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rbcw_joint"
+    type="continuous">
+    <origin
+      xyz="-0.025189 -0.012105 -0.028494"
+      rpy="1.5708 0 0" />
+    <parent
+      link="rb_castor" />
+    <child
+      link="rb_castorwheel" />
+    <axis
+      xyz="-0.081938 0 -0.99664" />
+  </joint>
+  <link
+    name="lf_castor">
+    <inertial>
+      <origin
+        xyz="0.0180439589118652 -8.09354320061573E-05 -0.0125515664222309"
+        rpy="0 0 0" />
+      <mass
+        value="0.0072033206097544" />
+      <inertia
+        ixx="1.83882308216762E-06"
+        ixy="0"
+        ixz="0"
+        iyy="1.83882308216762E-06"
+        iyz="0"
+        izz="-9.251443708E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/lf_castor.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/lf_castor.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lfc_joint"
+    type="continuous">
+    <origin
+      xyz="0.372 0.272 0.0105"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="lf_castor" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="lf_castorwheel">
+    <inertial>
+      <origin
+        xyz="0.00154624727605912 5.96181090606329E-14 -0.0100096145128414"
+        rpy="0 0 0" />
+      <mass
+        value="0.0288085187854741" />
+      <inertia
+        ixx="6.48651737942188E-06"
+        ixy="0"
+        ixz="0"
+        iyy="6.48651737942188E-06"
+        iyz="0"
+        izz="1.297303476E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/lf_castorwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <cylinder length="0.02" radius="0.024"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lfcw_joint"
+    type="continuous">
+    <origin
+      xyz="0.02455 -0.0098505 -0.028494"
+      rpy="1.5708 0 0" />
+    <parent
+      link="lf_castor" />
+    <child
+      link="lf_castorwheel" />
+    <axis
+      xyz="0.0060976 0 0.99998" />
+  </joint>
+  <link
+    name="lidar">
+    <inertial>
+      <origin
+        xyz="-0.000819722392042199 8.60422844084496E-16 -0.0302313786122058"
+        rpy="0 0 0" />
+      <mass
+        value="0.369882064981204" />
+      <inertia
+        ixx="0.000192654815321864"
+        ixy="2.86061300173066E-21"
+        ixz="-3.959554519593E-06"
+        iyy="0.000185852197253899"
+        iyz="-2.96012805271841E-18"
+        izz="0.000308287637120591" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/lidar.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/lidar.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lidar_joint"
+    type="fixed">
+    <origin
+      xyz="0.39 0 0.065"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidar" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="table">
+    <inertial>
+      <origin
+        xyz="5.55111512312578E-17 8.32667268468867E-17 0.00249999999999992"
+        rpy="0 0 0" />
+      <mass
+        value="1.68885" />
+      <inertia
+        ixx="0.0127601071875"
+        ixy="-8.5156884595617E-19"
+        ixz="-4.176590713903E-21"
+        iyy="0.0250073071875"
+        iyz="-6.43658033746996E-23"
+        izz="0.0377603775" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/table.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/table.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="table_joint"
+    type="prismatic">
+    <origin
+      xyz="0 0 0.119"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="table" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0.3"
+      effort="1000"
+      velocity="1.0" />
+    <!-- <safety_controller k_position="20"
+      k_velocity="20"
+      soft_lower_limit="-0.15"
+      soft_upper_limit="0.0"/>
+    <dynamics damping="50" friction="1"/> -->
+  </joint>
+  <link
+    name="sonar_r1">
+    <inertial>
+      <origin
+        xyz="4.2622699225614E-06 0.0100636317448406 -2.7313401605028E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.00556060776160887" />
+      <inertia
+        ixx="3.4563126114394E-07"
+        ixy="-4.25106477872237E-10"
+        ixz="3.9755754594774E-13"
+        iyy="2.4201492930678E-07"
+        iyz="2.72415970257836E-11"
+        izz="3.45637439573025E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/sonar_r1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/sonar_r1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="sonar_r1joint"
+    type="fixed">
+    <origin
+      xyz="0.12 -0.305 0.025"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="sonar_r1" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="sonar_r2">
+    <inertial>
+      <origin
+        xyz="3.33115586942379E-06 0.0100636317448406 2.67300349024446E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.00556060776160887" />
+      <inertia
+        ixx="3.45633675625514E-07"
+        ixy="-3.32239854491351E-10"
+        ixz="-3.04072917433647E-12"
+        iyy="2.42014929306781E-07"
+        iyz="-2.66597639200076E-10"
+        izz="3.45635025091452E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/sonar_r2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/sonar_r2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="sonar_r2joint"
+    type="fixed">
+    <origin
+      xyz="-0.12 -0.305 0.025"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="sonar_r2" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="sonar_l1">
+    <inertial>
+      <origin
+        xyz="2.63444063342E-06 -0.0100636317448406 3.36173610371304E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.00556060776160889" />
+      <inertia
+        ixx="3.45635094985131E-07"
+        ixy="2.62751491386843E-10"
+        ixz="-3.02437260408655E-12"
+        iyy="2.42014929306782E-07"
+        iyz="3.3528983866361E-10"
+        izz="3.45633605731839E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/sonar_l1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/sonar_l1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="sonar_l1joint"
+    type="fixed">
+    <origin
+      xyz="0.12 0.305 0.025"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="sonar_l1" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="sonar_l2">
+    <inertial>
+      <origin
+        xyz="0.0100636317448406 2.63444063330898E-06 3.36173610369223E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.0055606077616089" />
+      <inertia
+        ixx="2.42014929306782E-07"
+        ixy="-2.62751491385219E-10"
+        ixz="-3.35289838663538E-10"
+        iyy="3.45635094985131E-07"
+        iyz="-3.02437260416429E-12"
+        izz="3.45633605731839E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/sonar_l2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/sonar_l2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="sonar_l2joint"
+    type="fixed">
+    <origin
+      xyz="-0.12 0.305 0.025"
+      rpy="0 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="sonar_l2" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="sonar_b1">
+    <inertial>
+      <origin
+        xyz="0.0100636317448406 -1.99136316285375E-06 3.77836205747717E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.00556060776160887" />
+      <inertia
+        ixx="2.42014929306781E-07"
+        ixy="1.98612803907417E-10"
+        ixz="-3.76842906609881E-10"
+        iyy="3.45636110844904E-07"
+        iyz="2.56943302157578E-12"
+        izz="3.45632589872062E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/sonar_b1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/sonar_b1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="sonar_b1joint"
+    type="fixed">
+    <origin
+      xyz="-0.405 -0.1 0.025"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="sonar_b1" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="sonar_b2">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/sonar_b2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arabv/meshes/sonar_b2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="sonar_b2joint"
+    type="fixed">
+    <origin
+      xyz="-0.40584 0.1 0.025"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="sonar_b2" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <gazebo>
+        <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
+        <!-- Plugin update rate in Hz -->
+        <updateRate>20</updateRate>
+        <!-- Name of left joint, defaults to `left_joint` -->
+        <leftJoint>lw_joint</leftJoint>
+        <!-- Name of right joint, defaults to `right_joint` -->
+        <rightJoint>rw_joint</rightJoint>
+        <!-- The distance from the center of one wheel to the other, in meters, defaults to 0.34 m -->
+        <wheelSeparation>0.51545</wheelSeparation>
+        <!-- Diameter of the wheels, in meters, defaults to 0.15 m -->
+        <wheelDiameter>0.1564</wheelDiameter>
+        <!-- Wheel acceleration, in rad/s^2, defaults to 0.0 rad/s^2 -->
+        <wheelAcceleration>10.0</wheelAcceleration>
+        <!-- Maximum torque which the wheels can produce, in Nm, defaults to 5 Nm -->
+        <wheelTorque>5</wheelTorque>
+        <!-- Topic to receive geometry_msgs/Twist message commands, defaults to `cmd_vel` -->
+        <commandTopic>/arabv/base_controller/cmd_vel</commandTopic>
+        <!-- <commandTopic>/cmd_vel</commandTopic> -->
+        <!-- Topic to publish nav_msgs/Odometry messages, defaults to `odom` -->
+        <odometryTopic>/arabv/base_controller/odom</odometryTopic>
+        <!-- Odometry frame, defaults to `odom` -->
+        <odometryFrame>odom</odometryFrame>
+        <!-- Robot frame to calculate odometry from, defaults to `base_footprint` -->
+        <robotBaseFrame>root</robotBaseFrame>
+        <!-- Odometry source, 0 for ENCODER, 1 for WORLD, defaults to WORLD -->
+        <odometrySource>1</odometrySource>
+        <!-- Set to true to publish transforms for the wheel links, defaults to false -->
+        <publishWheelTF>true</publishWheelTF>
+        <!-- Set to true to publish transforms for the odometry, defaults to true -->
+        <publishOdom>true</publishOdom>
+        <!-- Set to true to publish sensor_msgs/JointState on /joint_states for the wheel joints, defaults to false -->
+        <publishWheelJointState>true</publishWheelJointState>
+        <!-- Set to true to swap right and left wheels, defaults to true -->
+        <legacyMode>false</legacyMode>
+      </plugin>
+    </gazebo>
+    <gazebo reference="root">
+        <material>
+            Gazebo/Black
+        </material>
+    </gazebo>
+    <gazebo reference="base_link">
+        <material>
+            Gazebo/Black
+        </material>
+    </gazebo>
+    <!-- <gazebo reference="leftwheel">
+        <material>
+            Gazebo/Yellow
+        </material>
+    </gazebo>
+    <gazebo reference="rightwheel">
+        <material>
+            Gazebo/Yellow
+        </material>
+    </gazebo> -->
+    <gazebo reference="lf_castorwheel">
+        <material>
+            Gazebo/Yellow
+        </material>
+    </gazebo>
+    <gazebo reference="lb_castorwheel">
+        <material>
+            Gazebo/Yellow
+        </material>
+    </gazebo>
+    <gazebo reference="rb_castorwheel">
+        <material>
+            Gazebo/Yellow
+        </material>
+    </gazebo>
+    <gazebo reference="rf_castorwheel">
+        <material>
+            Gazebo/Yellow
+        </material>
+    </gazebo>
+
+<gazebo reference="lidar">
+    <sensor type="ray" name="head_rplidar_sensor">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>40</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>720</samples>
+            <resolution>1</resolution>
+            <min_angle>-3.14159265</min_angle>
+            <max_angle>3.14159265</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.2</min>
+          <max>12.0</max>
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="gazebo_ros_head_rplidar_controller" filename="libgazebo_ros_laser.so">
+        <topicName>/arabv/lidar/scan</topicName>
+        <frameName>lidar</frameName>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <transmission name="linearActuator">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="table_joint">
+      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor1">
+      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>/arabv</robotNamespace>
+    </plugin>
+  </gazebo>
+
+</robot>
