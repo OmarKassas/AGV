@@ -1,0 +1,27 @@
+<launch>
+   
+  <master auto="start"/>
+
+  <param name="/use_sim_time" value="true"/>
+
+
+ <!-- Properties of each robot      -->
+
+    <include file="$(find arabv_sim)/launch/amcl.launch" />
+
+<!-- MOVE_BASE -->
+
+    <include file="$(find arabv_sim)/launch/move_base.launch" />
+
+
+<!-- Launching Gazebo & Rviz      -->
+    <include file="$(find arabv_sim)/launch/gazebo.launch" />
+
+    <include file="$(find arabv_sim)/launch/display.launch" />
+
+<!-- Get poses -->
+
+    <!-- <node name="getPose" pkg="arabv" type="getPose.py" output="screen"/> -->
+  
+
+</launch>
