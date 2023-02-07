@@ -1,0 +1,12 @@
+arabv:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 20  
+
+  # Position Controllers ---------------------------------------
+  table_joint_position_controller:
+    type: "velocity_controllers/JointPositionController"
+    joint: table_joint
+    pid: {p: 100.0, i: 0.01, d: 1.0}
+

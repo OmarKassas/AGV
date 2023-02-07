@@ -1,0 +1,1045 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66d69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66d69.dir/build.make CMakeFiles/cmTC_66d69.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66d69.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_66d69.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_66d69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66d69.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_66d69.dir/testCCompiler.c.o  -o cmTC_66d69 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_66d69.dir/build.make:97: recipe for target 'cmTC_66d69' failed
+make[1]: *** [cmTC_66d69] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_66d69/fast' failed
+make: *** [cmTC_66d69/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9467e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9467e.dir/build.make CMakeFiles/cmTC_9467e.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9467e.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_9467e.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9467e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9467e.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_9467e.dir/testCCompiler.c.o  -o cmTC_9467e 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_9467e.dir/build.make:97: recipe for target 'cmTC_9467e' failed
+make[1]: *** [cmTC_9467e] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9467e/fast' failed
+make: *** [cmTC_9467e/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a014/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a014.dir/build.make CMakeFiles/cmTC_5a014.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a014.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_5a014.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5a014
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a014.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_5a014.dir/testCCompiler.c.o  -o cmTC_5a014 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_5a014.dir/build.make:97: recipe for target 'cmTC_5a014' failed
+make[1]: *** [cmTC_5a014] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5a014/fast' failed
+make: *** [cmTC_5a014/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba91c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba91c.dir/build.make CMakeFiles/cmTC_ba91c.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba91c.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_ba91c.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ba91c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba91c.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_ba91c.dir/testCCompiler.c.o  -o cmTC_ba91c 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_ba91c.dir/build.make:97: recipe for target 'cmTC_ba91c' failed
+make[1]: *** [cmTC_ba91c] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ba91c/fast' failed
+make: *** [cmTC_ba91c/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4ddc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4ddc.dir/build.make CMakeFiles/cmTC_b4ddc.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4ddc.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_b4ddc.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b4ddc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4ddc.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_b4ddc.dir/testCCompiler.c.o  -o cmTC_b4ddc 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_b4ddc.dir/build.make:97: recipe for target 'cmTC_b4ddc' failed
+make[1]: *** [cmTC_b4ddc] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b4ddc/fast' failed
+make: *** [cmTC_b4ddc/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2629/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2629.dir/build.make CMakeFiles/cmTC_b2629.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2629.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_b2629.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b2629
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2629.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_b2629.dir/testCCompiler.c.o  -o cmTC_b2629 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_b2629.dir/build.make:97: recipe for target 'cmTC_b2629' failed
+make[1]: *** [cmTC_b2629] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b2629/fast' failed
+make: *** [cmTC_b2629/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea6b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea6b7.dir/build.make CMakeFiles/cmTC_ea6b7.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea6b7.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_ea6b7.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ea6b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea6b7.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_ea6b7.dir/testCCompiler.c.o  -o cmTC_ea6b7 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_ea6b7.dir/build.make:97: recipe for target 'cmTC_ea6b7' failed
+make[1]: *** [cmTC_ea6b7] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ea6b7/fast' failed
+make: *** [cmTC_ea6b7/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c50c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c50c.dir/build.make CMakeFiles/cmTC_1c50c.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c50c.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_1c50c.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1c50c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c50c.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_1c50c.dir/testCCompiler.c.o  -o cmTC_1c50c 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_1c50c.dir/build.make:97: recipe for target 'cmTC_1c50c' failed
+make[1]: *** [cmTC_1c50c] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1c50c/fast' failed
+make: *** [cmTC_1c50c/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2146/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2146.dir/build.make CMakeFiles/cmTC_b2146.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2146.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_b2146.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b2146
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2146.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_b2146.dir/testCCompiler.c.o  -o cmTC_b2146 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_b2146.dir/build.make:97: recipe for target 'cmTC_b2146' failed
+make[1]: *** [cmTC_b2146] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b2146/fast' failed
+make: *** [cmTC_b2146/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f981/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f981.dir/build.make CMakeFiles/cmTC_4f981.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f981.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_4f981.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4f981
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f981.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_4f981.dir/testCCompiler.c.o  -o cmTC_4f981 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_4f981.dir/build.make:97: recipe for target 'cmTC_4f981' failed
+make[1]: *** [cmTC_4f981] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4f981/fast' failed
+make: *** [cmTC_4f981/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ec6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ec6b.dir/build.make CMakeFiles/cmTC_5ec6b.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ec6b.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_5ec6b.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5ec6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ec6b.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_5ec6b.dir/testCCompiler.c.o  -o cmTC_5ec6b 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_5ec6b.dir/build.make:97: recipe for target 'cmTC_5ec6b' failed
+make[1]: *** [cmTC_5ec6b] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5ec6b/fast' failed
+make: *** [cmTC_5ec6b/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4037/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4037.dir/build.make CMakeFiles/cmTC_e4037.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4037.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_e4037.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e4037
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4037.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_e4037.dir/testCCompiler.c.o  -o cmTC_e4037 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_e4037.dir/build.make:97: recipe for target 'cmTC_e4037' failed
+make[1]: *** [cmTC_e4037] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e4037/fast' failed
+make: *** [cmTC_e4037/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c56f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c56f3.dir/build.make CMakeFiles/cmTC_c56f3.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c56f3.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_c56f3.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c56f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c56f3.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_c56f3.dir/testCCompiler.c.o  -o cmTC_c56f3 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_c56f3.dir/build.make:97: recipe for target 'cmTC_c56f3' failed
+make[1]: *** [cmTC_c56f3] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c56f3/fast' failed
+make: *** [cmTC_c56f3/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9bfa2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9bfa2.dir/build.make CMakeFiles/cmTC_9bfa2.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9bfa2.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_9bfa2.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9bfa2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bfa2.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_9bfa2.dir/testCCompiler.c.o  -o cmTC_9bfa2 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_9bfa2.dir/build.make:97: recipe for target 'cmTC_9bfa2' failed
+make[1]: *** [cmTC_9bfa2] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9bfa2/fast' failed
+make: *** [cmTC_9bfa2/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90d46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90d46.dir/build.make CMakeFiles/cmTC_90d46.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90d46.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_90d46.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_90d46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90d46.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_90d46.dir/testCCompiler.c.o  -o cmTC_90d46 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_90d46.dir/build.make:97: recipe for target 'cmTC_90d46' failed
+make[1]: *** [cmTC_90d46] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_90d46/fast' failed
+make: *** [cmTC_90d46/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05673/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05673.dir/build.make CMakeFiles/cmTC_05673.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05673.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_05673.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_05673
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05673.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_05673.dir/testCCompiler.c.o  -o cmTC_05673 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_05673.dir/build.make:97: recipe for target 'cmTC_05673' failed
+make[1]: *** [cmTC_05673] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_05673/fast' failed
+make: *** [cmTC_05673/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8c7e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8c7e.dir/build.make CMakeFiles/cmTC_e8c7e.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8c7e.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_e8c7e.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e8c7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8c7e.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_e8c7e.dir/testCCompiler.c.o  -o cmTC_e8c7e 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_e8c7e.dir/build.make:97: recipe for target 'cmTC_e8c7e' failed
+make[1]: *** [cmTC_e8c7e] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e8c7e/fast' failed
+make: *** [cmTC_e8c7e/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21075/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21075.dir/build.make CMakeFiles/cmTC_21075.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21075.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_21075.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_21075
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21075.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_21075.dir/testCCompiler.c.o  -o cmTC_21075 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_21075.dir/build.make:97: recipe for target 'cmTC_21075' failed
+make[1]: *** [cmTC_21075] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_21075/fast' failed
+make: *** [cmTC_21075/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2c15/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2c15.dir/build.make CMakeFiles/cmTC_d2c15.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2c15.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_d2c15.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d2c15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2c15.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_d2c15.dir/testCCompiler.c.o  -o cmTC_d2c15 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_d2c15.dir/build.make:97: recipe for target 'cmTC_d2c15' failed
+make[1]: *** [cmTC_d2c15] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d2c15/fast' failed
+make: *** [cmTC_d2c15/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a112/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a112.dir/build.make CMakeFiles/cmTC_0a112.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a112.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_0a112.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0a112
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a112.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_0a112.dir/testCCompiler.c.o  -o cmTC_0a112 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_0a112.dir/build.make:97: recipe for target 'cmTC_0a112' failed
+make[1]: *** [cmTC_0a112] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0a112/fast' failed
+make: *** [cmTC_0a112/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e164/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e164.dir/build.make CMakeFiles/cmTC_8e164.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e164.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_8e164.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8e164
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e164.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_8e164.dir/testCCompiler.c.o  -o cmTC_8e164 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_8e164.dir/build.make:97: recipe for target 'cmTC_8e164' failed
+make[1]: *** [cmTC_8e164] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8e164/fast' failed
+make: *** [cmTC_8e164/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fc12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4fc12.dir/build.make CMakeFiles/cmTC_4fc12.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fc12.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_4fc12.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4fc12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fc12.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_4fc12.dir/testCCompiler.c.o  -o cmTC_4fc12 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_4fc12.dir/build.make:97: recipe for target 'cmTC_4fc12' failed
+make[1]: *** [cmTC_4fc12] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4fc12/fast' failed
+make: *** [cmTC_4fc12/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b423/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b423.dir/build.make CMakeFiles/cmTC_8b423.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b423.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_8b423.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8b423
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b423.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_8b423.dir/testCCompiler.c.o  -o cmTC_8b423 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_8b423.dir/build.make:97: recipe for target 'cmTC_8b423' failed
+make[1]: *** [cmTC_8b423] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8b423/fast' failed
+make: *** [cmTC_8b423/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fa38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7fa38.dir/build.make CMakeFiles/cmTC_7fa38.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fa38.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_7fa38.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7fa38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fa38.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_7fa38.dir/testCCompiler.c.o  -o cmTC_7fa38 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_7fa38.dir/build.make:97: recipe for target 'cmTC_7fa38' failed
+make[1]: *** [cmTC_7fa38] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7fa38/fast' failed
+make: *** [cmTC_7fa38/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b88f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b88f.dir/build.make CMakeFiles/cmTC_9b88f.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b88f.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_9b88f.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9b88f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b88f.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_9b88f.dir/testCCompiler.c.o  -o cmTC_9b88f 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_9b88f.dir/build.make:97: recipe for target 'cmTC_9b88f' failed
+make[1]: *** [cmTC_9b88f] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9b88f/fast' failed
+make: *** [cmTC_9b88f/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc03d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc03d.dir/build.make CMakeFiles/cmTC_bc03d.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc03d.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_bc03d.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_bc03d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc03d.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_bc03d.dir/testCCompiler.c.o  -o cmTC_bc03d 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_bc03d.dir/build.make:97: recipe for target 'cmTC_bc03d' failed
+make[1]: *** [cmTC_bc03d] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bc03d/fast' failed
+make: *** [cmTC_bc03d/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e1c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e1c4.dir/build.make CMakeFiles/cmTC_9e1c4.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e1c4.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_9e1c4.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9e1c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e1c4.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_9e1c4.dir/testCCompiler.c.o  -o cmTC_9e1c4 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_9e1c4.dir/build.make:97: recipe for target 'cmTC_9e1c4' failed
+make[1]: *** [cmTC_9e1c4] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9e1c4/fast' failed
+make: *** [cmTC_9e1c4/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85d42/fast"
+/usr/bin/make -f CMakeFiles/cmTC_85d42.dir/build.make CMakeFiles/cmTC_85d42.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85d42.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_85d42.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_85d42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85d42.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_85d42.dir/testCCompiler.c.o  -o cmTC_85d42 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_85d42.dir/build.make:97: recipe for target 'cmTC_85d42' failed
+make[1]: *** [cmTC_85d42] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_85d42/fast' failed
+make: *** [cmTC_85d42/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bfdca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bfdca.dir/build.make CMakeFiles/cmTC_bfdca.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfdca.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_bfdca.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_bfdca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfdca.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_bfdca.dir/testCCompiler.c.o  -o cmTC_bfdca 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_bfdca.dir/build.make:97: recipe for target 'cmTC_bfdca' failed
+make[1]: *** [cmTC_bfdca] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bfdca/fast' failed
+make: *** [cmTC_bfdca/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbce9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbce9.dir/build.make CMakeFiles/cmTC_fbce9.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbce9.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_fbce9.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_fbce9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbce9.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_fbce9.dir/testCCompiler.c.o  -o cmTC_fbce9 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_fbce9.dir/build.make:97: recipe for target 'cmTC_fbce9' failed
+make[1]: *** [cmTC_fbce9] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fbce9/fast' failed
+make: *** [cmTC_fbce9/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1c72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1c72.dir/build.make CMakeFiles/cmTC_e1c72.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1c72.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_e1c72.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e1c72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1c72.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_e1c72.dir/testCCompiler.c.o  -o cmTC_e1c72 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_e1c72.dir/build.make:97: recipe for target 'cmTC_e1c72' failed
+make[1]: *** [cmTC_e1c72] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e1c72/fast' failed
+make: *** [cmTC_e1c72/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a8c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a8c6.dir/build.make CMakeFiles/cmTC_9a8c6.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a8c6.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_9a8c6.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9a8c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a8c6.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_9a8c6.dir/testCCompiler.c.o  -o cmTC_9a8c6 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_9a8c6.dir/build.make:97: recipe for target 'cmTC_9a8c6' failed
+make[1]: *** [cmTC_9a8c6] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a8c6/fast' failed
+make: *** [cmTC_9a8c6/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_841d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_841d7.dir/build.make CMakeFiles/cmTC_841d7.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_841d7.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_841d7.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_841d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_841d7.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_841d7.dir/testCCompiler.c.o  -o cmTC_841d7 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_841d7.dir/build.make:97: recipe for target 'cmTC_841d7' failed
+make[1]: *** [cmTC_841d7] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_841d7/fast' failed
+make: *** [cmTC_841d7/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0d1a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0d1a.dir/build.make CMakeFiles/cmTC_a0d1a.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0d1a.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_a0d1a.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a0d1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0d1a.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_a0d1a.dir/testCCompiler.c.o  -o cmTC_a0d1a 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_a0d1a.dir/build.make:97: recipe for target 'cmTC_a0d1a' failed
+make[1]: *** [cmTC_a0d1a] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a0d1a/fast' failed
+make: *** [cmTC_a0d1a/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a7b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a7b9.dir/build.make CMakeFiles/cmTC_4a7b9.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a7b9.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_4a7b9.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4a7b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a7b9.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_4a7b9.dir/testCCompiler.c.o  -o cmTC_4a7b9 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_4a7b9.dir/build.make:97: recipe for target 'cmTC_4a7b9' failed
+make[1]: *** [cmTC_4a7b9] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4a7b9/fast' failed
+make: *** [cmTC_4a7b9/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adf9f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_adf9f.dir/build.make CMakeFiles/cmTC_adf9f.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adf9f.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_adf9f.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_adf9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adf9f.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_adf9f.dir/testCCompiler.c.o  -o cmTC_adf9f 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_adf9f.dir/build.make:97: recipe for target 'cmTC_adf9f' failed
+make[1]: *** [cmTC_adf9f] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_adf9f/fast' failed
+make: *** [cmTC_adf9f/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4daf9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4daf9.dir/build.make CMakeFiles/cmTC_4daf9.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4daf9.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_4daf9.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4daf9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4daf9.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_4daf9.dir/testCCompiler.c.o  -o cmTC_4daf9 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_4daf9.dir/build.make:97: recipe for target 'cmTC_4daf9' failed
+make[1]: *** [cmTC_4daf9] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4daf9/fast' failed
+make: *** [cmTC_4daf9/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4f48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4f48.dir/build.make CMakeFiles/cmTC_d4f48.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4f48.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_d4f48.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d4f48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4f48.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_d4f48.dir/testCCompiler.c.o  -o cmTC_d4f48 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_d4f48.dir/build.make:97: recipe for target 'cmTC_d4f48' failed
+make[1]: *** [cmTC_d4f48] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d4f48/fast' failed
+make: *** [cmTC_d4f48/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbc94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbc94.dir/build.make CMakeFiles/cmTC_fbc94.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbc94.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_fbc94.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_fbc94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbc94.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_fbc94.dir/testCCompiler.c.o  -o cmTC_fbc94 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_fbc94.dir/build.make:97: recipe for target 'cmTC_fbc94' failed
+make[1]: *** [cmTC_fbc94] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fbc94/fast' failed
+make: *** [cmTC_fbc94/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2a15/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2a15.dir/build.make CMakeFiles/cmTC_b2a15.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2a15.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_b2a15.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b2a15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2a15.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_b2a15.dir/testCCompiler.c.o  -o cmTC_b2a15 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_b2a15.dir/build.make:97: recipe for target 'cmTC_b2a15' failed
+make[1]: *** [cmTC_b2a15] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b2a15/fast' failed
+make: *** [cmTC_b2a15/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38009/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38009.dir/build.make CMakeFiles/cmTC_38009.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38009.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_38009.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_38009
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38009.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_38009.dir/testCCompiler.c.o  -o cmTC_38009 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_38009.dir/build.make:97: recipe for target 'cmTC_38009' failed
+make[1]: *** [cmTC_38009] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_38009/fast' failed
+make: *** [cmTC_38009/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b7f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b7f5.dir/build.make CMakeFiles/cmTC_2b7f5.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b7f5.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_2b7f5.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_2b7f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b7f5.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_2b7f5.dir/testCCompiler.c.o  -o cmTC_2b7f5 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_2b7f5.dir/build.make:97: recipe for target 'cmTC_2b7f5' failed
+make[1]: *** [cmTC_2b7f5] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2b7f5/fast' failed
+make: *** [cmTC_2b7f5/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72364/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72364.dir/build.make CMakeFiles/cmTC_72364.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72364.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_72364.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_72364
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72364.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_72364.dir/testCCompiler.c.o  -o cmTC_72364 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_72364.dir/build.make:97: recipe for target 'cmTC_72364' failed
+make[1]: *** [cmTC_72364] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_72364/fast' failed
+make: *** [cmTC_72364/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16bc1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16bc1.dir/build.make CMakeFiles/cmTC_16bc1.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16bc1.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_16bc1.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_16bc1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16bc1.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_16bc1.dir/testCCompiler.c.o  -o cmTC_16bc1 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_16bc1.dir/build.make:97: recipe for target 'cmTC_16bc1' failed
+make[1]: *** [cmTC_16bc1] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_16bc1/fast' failed
+make: *** [cmTC_16bc1/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1c77/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1c77.dir/build.make CMakeFiles/cmTC_e1c77.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1c77.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_e1c77.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e1c77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1c77.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_e1c77.dir/testCCompiler.c.o  -o cmTC_e1c77 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_e1c77.dir/build.make:97: recipe for target 'cmTC_e1c77' failed
+make[1]: *** [cmTC_e1c77] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e1c77/fast' failed
+make: *** [cmTC_e1c77/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e44f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e44f.dir/build.make CMakeFiles/cmTC_4e44f.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e44f.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_4e44f.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4e44f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e44f.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_4e44f.dir/testCCompiler.c.o  -o cmTC_4e44f 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_4e44f.dir/build.make:97: recipe for target 'cmTC_4e44f' failed
+make[1]: *** [cmTC_4e44f] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4e44f/fast' failed
+make: *** [cmTC_4e44f/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e444/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e444.dir/build.make CMakeFiles/cmTC_5e444.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e444.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_5e444.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5e444
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e444.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_5e444.dir/testCCompiler.c.o  -o cmTC_5e444 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_5e444.dir/build.make:97: recipe for target 'cmTC_5e444' failed
+make[1]: *** [cmTC_5e444] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5e444/fast' failed
+make: *** [cmTC_5e444/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59d5f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59d5f.dir/build.make CMakeFiles/cmTC_59d5f.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59d5f.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_59d5f.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_59d5f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59d5f.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_59d5f.dir/testCCompiler.c.o  -o cmTC_59d5f 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_59d5f.dir/build.make:97: recipe for target 'cmTC_59d5f' failed
+make[1]: *** [cmTC_59d5f] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_59d5f/fast' failed
+make: *** [cmTC_59d5f/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18ea3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18ea3.dir/build.make CMakeFiles/cmTC_18ea3.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18ea3.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_18ea3.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_18ea3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18ea3.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_18ea3.dir/testCCompiler.c.o  -o cmTC_18ea3 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_18ea3.dir/build.make:97: recipe for target 'cmTC_18ea3' failed
+make[1]: *** [cmTC_18ea3] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_18ea3/fast' failed
+make: *** [cmTC_18ea3/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2874c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2874c.dir/build.make CMakeFiles/cmTC_2874c.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2874c.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_2874c.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_2874c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2874c.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_2874c.dir/testCCompiler.c.o  -o cmTC_2874c 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_2874c.dir/build.make:97: recipe for target 'cmTC_2874c' failed
+make[1]: *** [cmTC_2874c] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2874c/fast' failed
+make: *** [cmTC_2874c/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6667b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6667b.dir/build.make CMakeFiles/cmTC_6667b.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6667b.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_6667b.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6667b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6667b.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_6667b.dir/testCCompiler.c.o  -o cmTC_6667b 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_6667b.dir/build.make:97: recipe for target 'cmTC_6667b' failed
+make[1]: *** [cmTC_6667b] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6667b/fast' failed
+make: *** [cmTC_6667b/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27a58/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27a58.dir/build.make CMakeFiles/cmTC_27a58.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27a58.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_27a58.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_27a58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27a58.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_27a58.dir/testCCompiler.c.o  -o cmTC_27a58 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_27a58.dir/build.make:97: recipe for target 'cmTC_27a58' failed
+make[1]: *** [cmTC_27a58] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_27a58/fast' failed
+make: *** [cmTC_27a58/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2de0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2de0.dir/build.make CMakeFiles/cmTC_c2de0.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2de0.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_c2de0.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c2de0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2de0.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_c2de0.dir/testCCompiler.c.o  -o cmTC_c2de0 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_c2de0.dir/build.make:97: recipe for target 'cmTC_c2de0' failed
+make[1]: *** [cmTC_c2de0] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c2de0/fast' failed
+make: *** [cmTC_c2de0/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4275/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4275.dir/build.make CMakeFiles/cmTC_d4275.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4275.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_d4275.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d4275
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4275.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_d4275.dir/testCCompiler.c.o  -o cmTC_d4275 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_d4275.dir/build.make:97: recipe for target 'cmTC_d4275' failed
+make[1]: *** [cmTC_d4275] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d4275/fast' failed
+make: *** [cmTC_d4275/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a02a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a02a.dir/build.make CMakeFiles/cmTC_3a02a.dir/build
+make[1]: Entering directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a02a.dir/testCCompiler.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_3a02a.dir/testCCompiler.c.o   -c /home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3a02a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a02a.dir/link.txt --verbose=1
+/usr/bin/avr-gcc      -rdynamic CMakeFiles/cmTC_3a02a.dir/testCCompiler.c.o  -o cmTC_3a02a 
+avr-gcc: error: unrecognized command line option ‘-rdynamic’
+CMakeFiles/cmTC_3a02a.dir/build.make:97: recipe for target 'cmTC_3a02a' failed
+make[1]: *** [cmTC_3a02a] Error 1
+make[1]: Leaving directory '/home/omar/catkin_ws/src/arabv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3a02a/fast' failed
+make: *** [cmTC_3a02a/fast] Error 2
+
+

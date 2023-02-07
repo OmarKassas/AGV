@@ -1,0 +1,1 @@
+controller_joint_names: ['', 'rw_joint', 'lw_joint', 'rfc_joint', 'rfcw_joint', 'lfc_joint', 'lfcw_joint', 'lbc_joint', 'lbcw_joint', 'rbc_joint', 'rbcw_joint', 'table_joint', ]

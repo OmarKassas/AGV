@@ -1,0 +1,40 @@
+<launch>
+   
+  <master auto="start"/>
+
+  <param name="/use_sim_time" value="true"/>
+
+<!-- Launching Gazebo & Rviz      -->
+    <!-- <include file="$(find arabv)/launch/gazebo.launch" /> -->
+
+    <!-- <include file="$(find arabv)/launch/display.launch" /> -->
+
+ <!-- Properties of each robot      -->
+
+    <node pkg="laser_filters" type="scan_to_scan_filter_chain" output="screen" name="laser_filter">
+        <rosparam command="load" file="$(find arabv)/param/filter.yaml" />
+    </node>
+    
+<!-- Launching Gazebo & Rviz      -->
+    <!-- <include file="$(find arabv)/launch/gazebo.launch" /> -->
+
+    <include file="$(find arabv)/launch/display.launch" />
+
+
+    <include file="$(find arabv)/launch/amcl.launch" />
+
+    
+
+<!-- MOVE_BASE -->
+
+    <!-- <include file="$(find arabv)/launch/move_base.launch" /> -->
+
+
+
+
+<!-- Get poses -->
+
+    <!-- <node name="getPose" pkg="arabv" type="getPose.py" output="screen"/> -->
+  
+
+</launch>
